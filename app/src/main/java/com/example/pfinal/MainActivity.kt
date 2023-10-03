@@ -44,3 +44,18 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+@Preview
+@Composable
+fun PFinalPreview(){
+    PfinalTheme(darkTheme = false) {
+
+    }
+}
+
+@Preview
+@Composable
+fun PFinalDarkThemePreview(){
+    PfinalTheme(darkTheme = true) {
+
+    }
+}
